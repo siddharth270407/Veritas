@@ -1,6 +1,6 @@
 # Veritas
 
-> Ask questions about your PDFs. Get answers **with proof**. If the proof is missing, VeriDoc says **"I don't have proof"** instead of making something up.
+> Ask questions about your PDFs. Get answers **with proof**. If the proof is missing, Veritas says **"I don't have proof"** instead of making something up.
 
 Built for **Hackasol 5.0 · Track 2 (AIML) · AIML-02: Zero-Guessing & Contradiction-Checking Document AI**.
 Everything runs **on your own computer** with open-source models. No paid AI service is used.
@@ -16,7 +16,7 @@ Normal AI chatbots have three problems with them:
 2. They **miss conflicts**, for example one page says "2%" and another says "3%".
 3. They **don't know which version is current** when a document has been amended several times.
 
-## 2. What VeriDoc does
+## 2. What Veritas does
 
 | Feature | What it means in simple words |
 |---|---|
@@ -71,7 +71,7 @@ Normal AI chatbots have three problems with them:
 ## 5. Project structure
 
 ```
-veridoc/
+Veritas/
 │
 ├── README.md              <- you are here
 ├── requirements.txt       <- Python packages to install
@@ -181,10 +181,10 @@ If the top-right badge shows your model names, everything is connected.
 
 | Name | GitHub | Worked on |
 |---|---|---|
-| _Member 1_ | @username | PDF reading and search (`ingest.py`, `store.py`, `textutil.py`) |
-| _Member 2_ | @username | Answer checking (`qa.py`, `llm.py`) |
-| _Member 3_ | @username | Conflicts, amendments and tests (`reasoning.py`, `tests/`) |
-| _Member 4_ | @username | Web app and documentation (`main.py`, `frontend/`, `README.md`) |
+| Sarthak Deawangan| @sarthak05012006 | PDF reading and search (`ingest.py`, `store.py`, `textutil.py`) |
+| Aditya Singh | @adityasingh13177-lgtm | Answer checking (`qa.py`, `llm.py`) |
+| Aryan Chande | @aryanchande | Conflicts, amendments and tests (`reasoning.py`, `tests/`) |
+| Siddharth Arya | @siddharth270407 | Web app and documentation (`main.py`, `frontend/`, `README.md`) |
 
 ## 11. License
 
